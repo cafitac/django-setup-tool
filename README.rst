@@ -1,5 +1,5 @@
 ========================
-Django Initial Tool
+Django Setup Tool
 ========================
 
 Requirements
