@@ -52,7 +52,7 @@ setuptools.setup(
     zip_safe=False,
     classifiers=[
         # 패키지에 대한 태그
-        "Development Status : 5 - Production/Stable",
+        "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Framework :: Django",
         "Framework :: Django :: 2.2",
