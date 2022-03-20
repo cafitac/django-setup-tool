@@ -13,7 +13,7 @@ Installation
 ``pip`` 를 사용합니다
 
 .. code-block::
-pip install django-initial-tool
+pip install django-setup-tool
 
 Example
 =====
