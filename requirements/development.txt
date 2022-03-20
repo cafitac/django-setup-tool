@@ -1,0 +1,10 @@
+-r common.txt
+-r testing.txt
+
+# Core Stuff
+# ---------------------------
+Django==3.2.12
+
+# Code quality
+# ---------------------------
+pre-commit==2.17.0
