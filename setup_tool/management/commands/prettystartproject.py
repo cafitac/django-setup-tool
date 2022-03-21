@@ -4,7 +4,7 @@ from django.core.management.templates import TemplateCommand
 from django.core.management.utils import get_random_secret_key
 
 
-class Command(BaseCommand):
+class Command(TemplateCommand):
     help = (
         "Creates a Django project directory structure for the given project "
         "name in the current directory or optionally in the given directory."
@@ -20,4 +20,4 @@ class Command(BaseCommand):
 
         options["template"] = './setup_tool/project_template'
 
-        TemplateCommand().handle("project", project_name, target, **options)
+        super().handle("project", project_name, target, **options)

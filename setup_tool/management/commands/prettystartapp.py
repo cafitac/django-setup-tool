@@ -1,8 +1,9 @@
-from django.core.management import BaseCommand
+import os
+
 from django.core.management.templates import TemplateCommand
 
 
-class Command(BaseCommand):
+class Command(TemplateCommand):
     help = (
         "Creates a Django app directory structure for the given app name in "
         "the current directory or optionally in the given directory."
@@ -13,6 +14,6 @@ class Command(BaseCommand):
         app_name = options.pop("name")
         target = options.pop("directory")
 
-        options["template"] = './setup_tool/app_template'
+        options["template"] = './setup_tool/conf/app_template'
 
-        TemplateCommand().handle("app", app_name, target, **options)
+        super().handle("app", app_name, target, **options)
