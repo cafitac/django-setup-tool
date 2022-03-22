@@ -43,7 +43,7 @@ setuptools.setup(
     author="cafitac",
     author_email="cafitac99@gmail.com",
     description="Project initial extension for Django.",
-    long_description=open("README.rst").read(),
+    long_description=open("README.md").read(),
     url="https://github.com/cafitac/django-initital-tool",
     packages=setuptools.find_packages(),
     include_package_data=True,
