@@ -13,7 +13,7 @@ Python 과 Django 의 공식적인 최신 릴리즈 버전을 사용하는 것�
 pip install django-setup-tool
 ```
 
-Example
+## Example
 
 라이브러리 INSTALLED_APP 에 등록
 
