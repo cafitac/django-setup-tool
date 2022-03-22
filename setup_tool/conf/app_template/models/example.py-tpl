@@ -1,1 +1,1 @@
-from {{ app_name }}.models import example
+# from django.db import models
